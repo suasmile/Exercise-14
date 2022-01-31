@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+    scroll-behavior: smooth;  
+}
+
+.menu{
+    background-color: #ffc9bf;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menu2{
+    background-color: rgb(255, 221, 170);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menu3{
+    background-color: rgb(228, 196, 255);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menuitems{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    
+}
+
+.menuitems2 {
+    height: 90%;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+
+.menuitems3 {
+    height: 90%;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+
+
+
+
+.container{
+    height: 300px;
+    font-size: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    height: 100%;
+    background-color: white;
+    min-width: 100px;
+}
+
+p{
+    color: rgb(255, 180, 17);
+    font-size: 64px;
+}
+
+p2{
+    color: rgb(255, 138, 245);
+    font-size: 12px;
+}
+
+.longscroll{
+    background-image: linear-gradient(rgb(228, 196, 255),rgb(255, 221, 170),#ffc9bf);
+    height: 5000px;
+}
+
